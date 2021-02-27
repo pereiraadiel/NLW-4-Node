@@ -1,0 +1,17 @@
+{
+  "type": "postgres",
+  "database": "npsnlw4",
+  "username": "postgres",
+  "password": "13572468",
+  "host": "localhost",
+  "port": 5432,
+  "migrations": [
+    "./src/database/migrations/*.ts"
+  ],
+  "entities": [
+    "./src/models/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
